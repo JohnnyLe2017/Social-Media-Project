@@ -324,6 +324,29 @@ header .search-area ul li {
   
 }
 
+#content-area .main-area .widget-box.post .body .post-comments .user-image {
+    width: 8%;
+    display: inline-block;
+    overflow: auto;
+    float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-image img{
+    width:100%;
+  border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-image img{
+    width:100%;
+  border-radius: 50%;
+}
+
 
 /* CSS rules for Photos */
 .p1 {
